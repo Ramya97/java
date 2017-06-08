@@ -4,11 +4,11 @@ class isbn
 public static void main(String args[])
 {
     Scanner sc=new Scanner(System.in);
-       String n=sc.nextLine();
+       String n1=sc.nextLine();
        int l=n.length();
        int n2,i=0,sum=0;
        int[] a=new int[l];
-       int n3=Integer.parseInt(n);
+       int n3=Integer.parseInt(n1);
        while(n1!=0)
        {
            n2=n3%10;
